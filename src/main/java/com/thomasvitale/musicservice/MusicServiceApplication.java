@@ -23,7 +23,8 @@ public class MusicServiceApplication {
 			.GET("/", request -> ServerResponse.ok().bodyValue(List.of(
 				new Music("Måneskin"),
 				new Music("Guns 'n' Roses"),
-				new Music("Led Zeppelin")
+				new Music("Led Zeppelin"),
+				new Music("Aerosmith")
 			)))
 			.build();
 	}
